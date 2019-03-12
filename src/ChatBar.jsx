@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class ChatBar extends Component {
-
   render() {
     return (
       <footer className="chatbar">
@@ -14,7 +13,7 @@ class ChatBar extends Component {
           placeholder="Type a message and hit ENTER"
         />
       </footer>
-    );
+    )
   }
 }
 
